@@ -38,7 +38,7 @@ All Q1–Q5 implementations belong in `multi_agents.py`. Do not split agents int
 | Member | GitHub |
 | --- | --- |
 | Faizan Muhammad | [thefaizanmuhammad](https://github.com/thefaizanmuhammad) |
-| Abdul Kareem | Username to be provided |
+| Abdul Kareem | [abdulkareem518](https://github.com/abdulkareem518) |
 
 | Question | Topic | Marks | Assigned To |
 | --- | --- | --- | --- |
