@@ -247,6 +247,18 @@ def betterEvaluationFunction(currentGameState):
     DESCRIPTION: <write something here>
     """
     "*** YOUR CODE HERE ***"
+     pos = state.getRunnerPosition()
+    remaining = set(state.getKeys())
+    total = 0
+    while remaining:
+        nxt = min(remaining, key=lambda key: state.mazeDistance(pos, key))
+        step = state.mazeDistance(pos, nxt)
+        if step == float('inf'):
+            return step
+        total = total +step
+        remaining.remove(nxt)
+        pos = nxt
+    return total + state.mazeDistance(pos, state.getExit())
     util.raiseNotDefined()
 
 
